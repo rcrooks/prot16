@@ -1,10 +1,10 @@
 module.exports = {
   config: {
-    // default font size in pixels for all tabs
-    fontSize: 12,
+      // default font size in pixels for all tabs
+      fontSize: 18,
 
-    // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      // font family with optional fallbacks
+      fontFamily: '"Inconsolata LGC", Consolas, "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: '#728d8c',
@@ -98,4 +98,3 @@ module.exports = {
   // to load it and avoid it being `npm install`ed
   localPlugins: []
 };
-
